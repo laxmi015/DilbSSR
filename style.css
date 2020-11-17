@@ -1,0 +1,90 @@
+
+.navbar ul{
+    padding: 18px 20px;
+    margin: 0px 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+.navbar{
+        position: relative;
+        top: -10px;
+        left: -7px;
+        
+}
+
+.navbar li{
+    list-style: none;
+    margin: 11px;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+h1{
+    text-align: center;
+}
+
+.container::before{
+    content: "";
+    background:url('./pic.jpg') no-repeat center center/cover;
+    position: absolute;
+    height:90%;
+    top: 8px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+
+}
+.container p{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 25px;
+}
+.video{
+    position: relative;
+    top: 177px;
+}
+#form_sec{
+    position: relative;
+    top: 155px;
+    /* left: 308px; */
+    height: 390px;
+    background: url(./bg.jpg) center center/cover no-repeat;
+
+}
+#form_sec h2{
+    color: darkviolet;
+}
+#form_sec input{
+    background: none;
+    border: none;
+    padding: 10px;
+}
+#form_sec button{
+    margin: 8px 0px;
+    padding: 10px 20px;
+    border-radius: 13px;
+    color: darkviolet;
+    background: none;
+    outline: none;
+    font-size: 15px;
+}
+.primaryform{
+    position: relative;
+    left: 697px;
+    top: 158px;
+    border-bottom: darkviolet;
+}
+.navbar li:hover{
+    background-color: darkviolet;
+}
+footer{
+    color: black;
+    position: relative;
+    top: 161px;
+    text-align: center;
+}
+}
